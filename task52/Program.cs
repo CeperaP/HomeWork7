@@ -52,10 +52,12 @@
             return Av;
         }
       
-        double Fin= GetAverage( array);
+       System.Console.WriteLine();
 
+   for (int i = 0; i < COLUMS; i++)
+   {
+    System.Console.Write($"{GetAverage(  array,i)+" ":f1}");    
+   }
    
-   System.Console.WriteLine(Fin);
-    
-// не соображу,как в конце вывести ((
+
 
