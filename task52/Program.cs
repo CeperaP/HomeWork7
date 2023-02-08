@@ -51,11 +51,11 @@
             Av= result / count;
             return Av;
         }
-        double G=0;
-        double Fin= GetAverage( array,G);
+      
+        double Fin= GetAverage( array);
 
    
-   System.Console.WriteLine();
+   System.Console.WriteLine(Fin);
     
 // не соображу,как в конце вывести ((
 
